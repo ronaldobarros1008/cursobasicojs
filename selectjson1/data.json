@@ -1,0 +1,26 @@
+{"people":[
+    {
+        "id":"1",
+        "name":"John"
+    },
+
+    {
+        "id":"2",
+        "name":"Sarah"
+    },
+
+    {
+        "id":"3",
+        "name":"Ronaldo Barros"
+    },
+
+    {
+        "id":"4",
+        "name":"José Barros"
+    },
+
+    {
+        "id":"4",
+        "name":"Lucia Barros"
+    }
+]}

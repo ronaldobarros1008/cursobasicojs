@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background:rgb(68,125,199);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        //window.document.write(window.document.URL)//escrever a url do pagina
+        //var p1 = window.document.getElementsByTagName('p')[1]//pegando os paragrafos conforme a ordem, nesse caso o segundo 'p'
+        //window.document.write('Está escrito assim: '+p1.innerText)//aqui para mostra ná pagina
+        //p1.style.color = 'yellow'
+        //window.document.write('Está escrito assim: '+p1.innerHTML)//aqui para mostra ná pagina com a formatação existente
+        //var d = window.document.getElementById('msg')
+        //d.style.background = 'green'
+        //d.innerText = 'Estou aguardando'//trocar o valor de 'd'
+        //window.document.getElementById('msg').innerText = 'Olá!!!'//troca também
+        //var x = window.document.getElementsByName('msg')[0]//em vez de 'id' a div deve esta endereçado por 'name'
+        //x.innerText = 'Olá!'
+
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'silver'
+    </script>
+</body>
+</html>
